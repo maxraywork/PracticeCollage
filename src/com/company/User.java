@@ -14,9 +14,8 @@ public class User {
         System.out.println("id = " + this.id[array] +
                 "; логин = " + this.login[array] +
                 "; password = " + this.password[array]);
-
     }
-    
+
     public static void main(String[] args) {
         User first = new User(0, 5, "admin", "abc");
         User second = new User(1, 2, "Maks", "12345");
